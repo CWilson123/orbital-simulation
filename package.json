@@ -2,7 +2,7 @@
   "name": "orbit-simulator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yourusername.github.io/my-app",
+  "homepage": "http://CWilson123.github.io/orbital-simulation",
   "dependencies": {
     "@aws-amplify/cli": "^12.12.2",
     "@testing-library/jest-dom": "^5.17.0",
