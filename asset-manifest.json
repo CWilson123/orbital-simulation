@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/orbital-simulation/static/css/main.5728b7e5.css",
+    "main.js": "/orbital-simulation/static/js/main.b8dfbc8c.js",
+    "static/js/453.655ec069.chunk.js": "/orbital-simulation/static/js/453.655ec069.chunk.js",
+    "index.html": "/orbital-simulation/index.html",
+    "main.5728b7e5.css.map": "/orbital-simulation/static/css/main.5728b7e5.css.map",
+    "main.b8dfbc8c.js.map": "/orbital-simulation/static/js/main.b8dfbc8c.js.map",
+    "453.655ec069.chunk.js.map": "/orbital-simulation/static/js/453.655ec069.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5728b7e5.css",
+    "static/js/main.b8dfbc8c.js"
+  ]
+}
