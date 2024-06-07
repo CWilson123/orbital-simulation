@@ -1,0 +1,76 @@
+.orbit-animator button {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color);
+}
+
+.orbit-animator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.button-start {
+  background-color: var(--green-start);
+}
+
+.button-stop {
+  background-color: var(--red-end);
+}
+
+.svg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.svg-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.svg-label {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--text-color); /* Adjust to your color scheme */
+}
+
+svg {
+  margin: 10px 0; /* Add some space above and below each SVG */
+}
+
+/* Media query for wide screens */
+@media (min-width: 1000px) {
+  .svg-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .svg-section {
+    margin-bottom: 0;
+  }
+
+  svg {
+    margin: 0 10px; /* Adjust margin for side-by-side layout */
+  }
+}
